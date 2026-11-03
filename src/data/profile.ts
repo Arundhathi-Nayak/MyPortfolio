@@ -10,9 +10,9 @@ export const profile: Profile = {
     'I build web applications and AI-powered solutions, and I enjoy turning real problems into software people can actually use. I learn by building, and I am currently looking for software developer opportunities.',
 
   // TODO: replace with your real links
-  email: 'your.email@example.com',
-  github: 'https://github.com/your-username',
-  linkedin: 'https://www.linkedin.com/in/your-profile',
+  email: 'nayakarundhathi5@gmail.com',
+  github: 'https://github.com/Arundhathi-Nayak/',
+  linkedin: 'https://www.linkedin.com/in/arundhathi-nayak/',
 
   // Put your PDF in the /public folder and keep this file name (or change it here).
   resumeFile: 'resume.pdf',

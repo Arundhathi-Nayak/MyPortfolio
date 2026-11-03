@@ -2,43 +2,43 @@ import type { SkillGroup } from '../types';
 
 /**
  * EDIT ME: list only technologies you are comfortable with.
- * Replace each { todo } with a real skill, e.g. 'Python'.
+ * Replace each { todco } with a real skill, e.g. 'Python'.
  */
 export const skillGroups: SkillGroup[] = [
   {
     id: 'languages',
     title: 'Programming languages',
     icon: 'code',
-    skills: ['TypeScript', { todo: 'Add a language you know' }],
+    skills: ['C#', 'Java', 'Python', 'TypeScript', 'JavaScript', 'SQL'],
   },
   {
     id: 'frontend',
-    title: 'Frontend',
+    title: 'Frameworks & Technologies',
     icon: 'layout',
-    skills: ['React', 'Vite', 'HTML5', 'CSS3', 'Framer Motion'],
+    skills: ['.NET', 'ASP.NET Core', 'Spring Boot', 'FastAPI', 'REST APIs', 'React JS',' Angular', 'Entity Framework (EF) Core'],
   },
   {
     id: 'backend',
-    title: 'Backend',
+    title: 'Testing & Software Engineering',
     icon: 'server',
-    skills: [{ todo: 'Add backend technologies' }],
+    skills: ['xUnit','SDLC', 'Agile/Scrum', 'OOP'],
   },
   {
     id: 'databases',
     title: 'Databases',
     icon: 'database',
-    skills: [{ todo: 'Add databases you have used' }],
+    skills: ['MySQL', 'SQL Server', 'PostgreSQL'],
   },
   {
     id: 'ai-ml',
     title: 'AI / ML',
     icon: 'brain',
-    skills: [{ todo: 'Add AI / ML tools or libraries' }],
+    skills: ['RAG', 'LLM', 'Vector Embeddings', 'Generative AI (GenAI)'],
   },
   {
     id: 'tools',
-    title: 'Developer tools',
+    title: 'DevOps & Tooling',
     icon: 'wrench',
-    skills: ['Git', 'GitHub', 'Vercel'],
+    skills: ['Microsoft Azure', 'Git', 'Docker', 'CI/CD', 'Jira', 'TFS', 'Postman', 'Swagger', 'ServiceNow'],
   },
 ];
